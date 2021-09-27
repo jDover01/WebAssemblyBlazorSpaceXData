@@ -267,7 +267,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.Logging.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/3.1.6": {
+      "Microsoft.Extensions.Logging.Abstractions/5.0.0": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
@@ -1236,18 +1236,24 @@
         "microsoft.extensions.logging.nuspec"
       ]
     },
-    "Microsoft.Extensions.Logging.Abstractions/3.1.6": {
-      "sha512": "o2XYIjF9UugupEPvFsc9N8SjevixoRznS0V6EtjUZcGV4EjXXWKUXlKKsIWmD3i4dSiGo82aNcyqfQTsF/8h8g==",
+    "Microsoft.Extensions.Logging.Abstractions/5.0.0": {
+      "sha512": "NxP6ahFcBnnSfwNBi2KH2Oz8Xl5Sm2krjId/jRR3I7teFphwiUoUeZPwTNA21EX+5PtjqmyAvKaOeBXcJjcH/w==",
       "type": "package",
-      "path": "microsoft.extensions.logging.abstractions/3.1.6",
+      "path": "microsoft.extensions.logging.abstractions/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.Logging.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
-        "microsoft.extensions.logging.abstractions.3.1.6.nupkg.sha512",
-        "microsoft.extensions.logging.abstractions.nuspec"
+        "microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "Microsoft.Extensions.Options/3.1.6": {
@@ -1669,6 +1675,7 @@
       "Microsoft.AspNetCore.Components.WebAssembly >= 3.2.1",
       "Microsoft.AspNetCore.Components.WebAssembly.Build >= 3.2.1",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 3.2.1",
+      "Microsoft.Extensions.Logging.Abstractions >= 5.0.0",
       "Newtonsoft.Json >= 13.0.1",
       "System.Net.Http.Json >= 3.2.0"
     ]
@@ -1681,11 +1688,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\John.Dover@ofm.wa.gov\\source\\repos\\WebAssemblyBlazorSpaceX\\WebAssemblyBlazorSpaceX\\WebAssemblyBlazorSpaceX.csproj",
+      "projectUniqueName": "C:\\Users\\John.Dover@ofm.wa.gov\\source\\repos\\SpaceXData\\WebAssemblyBlazorSpaceX\\WebAssemblyBlazorSpaceX\\WebAssemblyBlazorSpaceX.csproj",
       "projectName": "WebAssemblyBlazorSpaceX",
-      "projectPath": "C:\\Users\\John.Dover@ofm.wa.gov\\source\\repos\\WebAssemblyBlazorSpaceX\\WebAssemblyBlazorSpaceX\\WebAssemblyBlazorSpaceX.csproj",
+      "projectPath": "C:\\Users\\John.Dover@ofm.wa.gov\\source\\repos\\SpaceXData\\WebAssemblyBlazorSpaceX\\WebAssemblyBlazorSpaceX\\WebAssemblyBlazorSpaceX.csproj",
       "packagesPath": "C:\\Users\\John.Dover@ofm.wa.gov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\John.Dover@ofm.wa.gov\\source\\repos\\WebAssemblyBlazorSpaceX\\WebAssemblyBlazorSpaceX\\obj\\",
+      "outputPath": "C:\\Users\\John.Dover@ofm.wa.gov\\source\\repos\\SpaceXData\\WebAssemblyBlazorSpaceX\\WebAssemblyBlazorSpaceX\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -1733,6 +1740,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[3.2.1, )"
+          },
+          "Microsoft.Extensions.Logging.Abstractions": {
+            "target": "Package",
+            "version": "[5.0.0, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",

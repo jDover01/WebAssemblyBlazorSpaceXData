@@ -1,6 +1,8 @@
 @page "/spacexdata"
+@using Microsoft.Extensions.Logging;
 @inject HttpClient Http
 @inject IJSRuntime JS
+@inject ILoggerFactory loggerFactory
 
 <h1>Space X Data</h1>
 
@@ -57,11 +59,24 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        //GET THE MISSIONS ARRAY FROM JAVASCRIPT BY USING JSRUNTIME
-        missions = await JS.InvokeAsync<SpaceXDataModels.Mission[]>("GetMissions");
-
-        //ORDER THE DATA CHRONOLOGICAL BY MISSION DATE BY DEFAULT
-        await JS.InvokeAsync<string>("DefaultSort");
+        var logger = loggerFactory.CreateLogger<SpaceXData>();
+        try
+        {
+            //GET THE MISSIONS ARRAY FROM JAVASCRIPT BY USING JSRUNTIME
+            missions = await JS.InvokeAsync<SpaceXDataModels.Mission[]>("GetMissions");
+        }
+        catch(Exception ex)
+        {
+            logger.LogWarning("Error getting Space X Data Missions. Error: " + ex.Message);
+        }
+        try {
+            //ORDER THE DATA CHRONOLOGICAL BY MISSION DATE BY DEFAULT
+            await JS.InvokeAsync<string>("DefaultSort");
+        }
+        catch(Exception ex)
+        {
+            logger.LogWarning("Error during default sort. Error: " + ex.Message);
+        }
     }
 
     private void SortTable(string columnName)

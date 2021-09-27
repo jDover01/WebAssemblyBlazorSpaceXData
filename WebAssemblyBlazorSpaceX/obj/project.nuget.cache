@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M7FHr2ZNn4nKr2m6726omGQP/rOz2cneSofTETRCfE45igG4KamkQs+MJYn7u0eP2IL3vIMw+9Na5NbmtdCtlA==",
+  "dgSpecHash": "Tep4a2BKDQN7OC0QTGQX3SKqa1zC0Xz/mmIXI+axDZfaz7TWuHXPivM/CvOjQlnNMlP56EsizxGUq8WaAc0s+A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\John.Dover@ofm.wa.gov\\source\\repos\\WebAssemblyBlazorSpaceX\\WebAssemblyBlazorSpaceX\\WebAssemblyBlazorSpaceX.csproj",
+  "projectFilePath": "C:\\Users\\John.Dover@ofm.wa.gov\\source\\repos\\SpaceXData\\WebAssemblyBlazorSpaceX\\WebAssemblyBlazorSpaceX\\WebAssemblyBlazorSpaceX.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\John.Dover@ofm.wa.gov\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.6\\microsoft.aspnetcore.authorization.3.1.6.nupkg.sha512",
     "C:\\Users\\John.Dover@ofm.wa.gov\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.6\\microsoft.aspnetcore.components.3.1.6.nupkg.sha512",
@@ -27,7 +27,7 @@
     "C:\\Users\\John.Dover@ofm.wa.gov\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\3.1.6\\microsoft.extensions.fileproviders.physical.3.1.6.nupkg.sha512",
     "C:\\Users\\John.Dover@ofm.wa.gov\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\3.1.6\\microsoft.extensions.filesystemglobbing.3.1.6.nupkg.sha512",
     "C:\\Users\\John.Dover@ofm.wa.gov\\.nuget\\packages\\microsoft.extensions.logging\\3.1.6\\microsoft.extensions.logging.3.1.6.nupkg.sha512",
-    "C:\\Users\\John.Dover@ofm.wa.gov\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6\\microsoft.extensions.logging.abstractions.3.1.6.nupkg.sha512",
+    "C:\\Users\\John.Dover@ofm.wa.gov\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\John.Dover@ofm.wa.gov\\.nuget\\packages\\microsoft.extensions.options\\3.1.6\\microsoft.extensions.options.3.1.6.nupkg.sha512",
     "C:\\Users\\John.Dover@ofm.wa.gov\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\microsoft.extensions.primitives.3.1.6.nupkg.sha512",
     "C:\\Users\\John.Dover@ofm.wa.gov\\.nuget\\packages\\microsoft.jsinterop\\3.1.6\\microsoft.jsinterop.3.1.6.nupkg.sha512",
